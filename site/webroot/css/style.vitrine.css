@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Padrão da vitrine */
+
+.wrap.wrap-vitrine{position:relative;}
+.vitrine{width: 853px; height: 380px; overflow: hidden; margin: 0 auto;}
+.vitrine-img{width: 853px; height: 352px; margin:0px; padding:0px;}
+.vitrine-img img{margin:0px; padding:0px;}
+.pager-active{xxborder-bottom:3px solid #f8941d;}
+p.vitrine-next a{z-index:999; text-indent: -999999px;background: url(../img/vitrine-base/bt_next.png) no-repeat; width:39px;height: 190px; position:absolute; margin: -291px 24px 0 0; right:0;}
+p.vitrine-prev a{z-index:999; text-indent: -999999px;background: url(../img/vitrine-base/bt_prev.png) no-repeat; width: 37px;height: 190px; position:absolute; margin: -290px 0 0 25px;}
+.bx-pager a {line-height:0px; font-size:32px; background: url(../img/vitrine-base/ball2.png) no-repeat; color: transparent; padding-right:5px;}
+.bx-auto .start {background: url() no-repeat 0 2px;padding-left: 13px;}
+.bx-auto .stop {background: url() no-repeat 0 -14px;padding-left: 13px;}
+.bx-pager .pager-active, .bx-pager a:hover{background: url(../img/vitrine-base/ball.png) no-repeat;}
+.bx-pager {text-align:center; margin:23px 0 0 395px; position:absolute;}
+.bx-captions {text-align:center;font-size: 12px;padding: 7px 0;color: #666;}
+.bx-auto {text-align: center;padding-top: 15px;}
+.bx-auto a {color: #666;font-size: 12px;}
