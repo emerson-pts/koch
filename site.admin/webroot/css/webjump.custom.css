@@ -1,0 +1,15 @@
+/*CSS customizado do admin neste projeto*/
+nav > ul > li.destinos, nav > ul > li.destinos > a {background-image: url(../img/custom/pacotes_2states.png); }
+
+
+ul.arbo.with-mini-menu li span.flag-roteiros-1, .keywords .flag-roteiros-1{
+	background-color: #005500 !important;
+}
+
+ul.arbo.with-mini-menu li span.flag-roteiros-1.status-0, .keywords .flag-roteiros-1.status-0{
+	background-color: #F78181 !important;
+}
+
+ul.arbo.with-mini-menu li span.flag-roteiros-1+ul.mini-menu li.action-add{
+	display: none;
+}

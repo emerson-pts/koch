@@ -1,0 +1,3 @@
+.cake-sql-log, .no-print, .no_print{display:none !important;visibility:hidden !important}
+.only-print, .only_print{display:block !important;visibility:visible !important}
+@media print{@page {size: portrait}}
